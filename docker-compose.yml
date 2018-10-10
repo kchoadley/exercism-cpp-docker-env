@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  hello-world:
+    image: hello-world
+    build: .
+    ports:
+      - 8201:8201
